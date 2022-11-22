@@ -1,0 +1,4 @@
+安装文档：已经有安装包，只需要安装部署
+docker_postgres_setup.tar.gz中已经有打包好的docker安装文件和自定义pg镜像文件。使用时只需要对安装文件进行安装，然后导入pg镜像，用docker-compose.yml部署pg
+制作文档：从零开始
+描述了从头下载docker安装文件并打包，下载官方pg镜像再修改文件变成自定义pg镜像并打包，编写docker-compose.yml部署文件的整个流程
